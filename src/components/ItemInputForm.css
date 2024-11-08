@@ -1,0 +1,56 @@
+/* Styles for the Item Input Form */
+.item-input-form {
+  margin-top: 32px;
+  padding: 24px; /* Increased padding for a more spacious feel */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+  border-radius: 12px; /* Increased border radius for a smoother look */
+  background-color: #ffffff; /* White background for clarity */
+  max-width: 500px; /* Limit width for better readability */
+  margin-left: auto; /* Centering the form horizontally */
+  margin-right: auto; /* Centering the form horizontally */
+  transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Text fields styling */
+.item-input-form .MuiTextField-root {
+  margin-top: 16px;
+  width: 100%; /* Full width for text fields */
+}
+
+/* Button styling */
+.item-input-form .MuiButton-root {
+  margin-top: 16px;
+  background-color: #007bff; /* Primary button color */
+  color: #ffffff; /* White text for contrast */
+  padding: 10px 20px; /* More padding for a better button size */
+  border-radius: 8px; /* Rounded corners for buttons */
+  font-weight: bold; /* Bold text for emphasis */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+.item-input-form .MuiButton-root:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Additional styling for form labels */
+.item-input-form .MuiInputLabel-root {
+  color: #555555; /* Dark gray label color */
+  font-weight: 500; /* Slightly bolder labels */
+}
+
+/* Error message styling */
+.item-input-form .MuiFormHelperText-root {
+  color: #d32f2f; /* Red color for error messages */
+  margin-top: 4px; /* Space above error messages */
+}
+
+/* Input field focus effect */
+.item-input-form .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #007bff; /* Blue border when focused */
+}
+
+.item-input-form .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #0056b3; /* Darker blue border on hover */
+}

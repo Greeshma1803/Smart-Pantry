@@ -1,0 +1,11 @@
+.card {
+  transition: transform 0.2s; /* Animation */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale on hover */
+}
+
+.cardMedia {
+  height: 140px; /* Adjust height as necessary */
+}
